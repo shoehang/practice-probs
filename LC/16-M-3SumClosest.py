@@ -16,7 +16,6 @@ def threeSumClosest(nums, target):
 			else:
 				largeWindow -= 1
 	return closestSum
+x = [-1,2,1,-4]
 
-penis = [-1,2,1,-4]
-
-print(threeSumClosest(penis, 1))
+print(threeSumClosest(x, 1))
