@@ -17,7 +17,3 @@ def maxArea(height):
 			right -= 1
 
 	return greatestArea
-
-penis = [4,3,4,5,6,2,1,2,3,4]
-
-print(maxArea(penis))
