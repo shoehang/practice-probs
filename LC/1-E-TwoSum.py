@@ -3,6 +3,7 @@ class Solution:
         
         hash = {}
         
+        # O(n)
         for i in range(len(nums)):
             remainder = target - nums[i]
             if remainder in hash:
