@@ -5,6 +5,7 @@ def lengthOfLongestSubstring(self, s: str) -> int:
     
     # O(n)
     for right in range(len(s)):
+        
         while s[right] in charSet:
             charSet.remove(s[left])
             left += 1
